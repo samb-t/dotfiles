@@ -1,0 +1,12 @@
+[tools]
+"cargo:starship" = "latest"
+"cargo:yazi-cli" = "latest"
+neovim = "latest"
+node = "latest"
+rust = "latest"
+tmux = "latest"
+"cargo:yazi-fm" = "latest"
+"cargo:zoxide" = "latest"
+
+[env]
+AZCOPY_AUTO_LOGIN_TYPE = "AZCLI"

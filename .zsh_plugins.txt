@@ -1,0 +1,20 @@
+### Sourcing
+# ~/.asdf kind:zsh
+
+### Completion
+# mattmc3/ez-compinit
+
+### Oh-My-ZSH plugins
+getantidote/use-omz        # handle OMZ dependencies
+ohmyzsh/ohmyzsh path:lib   # load OMZ's library
+ohmyzsh/ohmyzsh path:plugins/colored-man-pages
+ohmyzsh/ohmyzsh path:plugins/git
+ohmyzsh/ohmyzsh path:plugins/mise
+
+zsh-users/zsh-completions
+zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-autosuggestions
+MichaelAquilina/zsh-you-should-use
+
+# Needs to be at the end
+belak/zsh-utils path:completion

@@ -1,0 +1,7 @@
+[user]
+name = "Sam Bond-Taylor"
+email = "sbondtaylor@microsoft.com"
+
+[ui]
+paginate = "never"
+default-command = "log"

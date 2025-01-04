@@ -9,5 +9,9 @@ eval "$(uv generate-shell-completion zsh)"
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
 
+# uv
+alias uvr="uv run"
+
 # autoload -Uz compinit && compinit
-eval "$(/home/sbondtaylor/.local/bin/mise activate zsh)"
+eval "$(~/.local/bin/mise activate zsh)"
+source <(jj util completion zsh)

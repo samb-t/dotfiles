@@ -7,6 +7,8 @@ rust = "latest"
 tmux = "latest"
 "cargo:yazi-fm" = "latest"
 "cargo:zoxide" = "latest"
+"cargo:jj-cli" = { version = "latest", bin = "jj" }
+"cargo:fd-find" = "latest"
 
 [env]
 AZCOPY_AUTO_LOGIN_TYPE = "AZCLI"

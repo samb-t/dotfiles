@@ -14,7 +14,6 @@ tmux = "latest"
 "cargo:bat" = "latest"
 "cargo:usage-cli" = "latest"
 "cargo:eza" = "latest"
-# usage = "latest"
 
 [env]
 AZCOPY_AUTO_LOGIN_TYPE = "AZCLI"

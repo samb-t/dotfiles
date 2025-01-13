@@ -4,7 +4,6 @@ antidote load ${ZDOTDIR:-$HOME}/.zsh_plugins.txt
 
 PATH="$HOME/.local/bin:$PATH"
 
-# . "$HOME/.local/bin/env"
 eval "$(uv generate-shell-completion zsh)"
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
@@ -13,8 +12,11 @@ eval "$(starship init zsh)"
 eval "$(mise activate zsh)"
 source <(jj util completion zsh)
 
-# uv
+# uv aliases
 alias uvr="uv run"
+
+# jj aliases
+alias jjgp="jj git push"
 
 # Nicer CLI tools
 # check bat is installed

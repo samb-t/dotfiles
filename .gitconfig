@@ -1,0 +1,32 @@
+[user]
+	email = 18750296+samb-t@users.noreply.github.com
+	name = Sam Bond-Taylor
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[credential "https://github.com"]
+	helper =
+	helper = !/home/sbondtaylor/miniconda3/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper =
+	helper = !/home/sbondtaylor/miniconda3/bin/gh auth git-credential
+
+[includeIf "gitdir:~/repos/fmps"]
+    path = ~/gitconfigs/fmps.gitconfig
+[credential]
+	helper = store
+
+[delta]
+	features = TwoDark
+	nagivate = true
+	dark = true
+	side-by-side = true
+	navigate = true
+[interactive]
+	diffFilter = delta --color-only
+[merge]
+	conflictStyle = zdiff3
+[core]
+	pager = delta

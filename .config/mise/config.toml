@@ -9,6 +9,13 @@ tmux = "latest"
 "cargo:zoxide" = "latest"
 "cargo:jj-cli" = { version = "latest", bin = "jj" }
 "cargo:fd-find" = "latest"
+"cargo:juliaup" = "latest"
+"cargo:git-delta" = "latest"
+"cargo:bat" = "latest"
+"cargo:usage-cli" = "latest"
+"cargo:eza" = "latest"
+# usage = "latest"
 
 [env]
 AZCOPY_AUTO_LOGIN_TYPE = "AZCLI"
+BAT_THEME = "TwoDark"

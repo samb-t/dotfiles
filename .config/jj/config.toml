@@ -1,7 +1,11 @@
 [user]
 name = "Sam Bond-Taylor"
-email = "sbondtaylor@microsoft.com"
+email = "18750296+samb-t@users.noreply.github.com"
 
 [ui]
-paginate = "never"
+# paginate = "never"
 default-command = "log"
+pager = "delta"
+
+[diff]
+format = "git"

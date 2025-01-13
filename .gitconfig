@@ -26,7 +26,5 @@
 	navigate = true
 [interactive]
 	diffFilter = delta --color-only
-[merge]
-	conflictStyle = zdiff3
 [core]
 	pager = delta

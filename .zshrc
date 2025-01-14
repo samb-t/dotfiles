@@ -28,3 +28,6 @@ if command -v eza &> /dev/null; then
     alias ls="eza --icons=always --group-directories-first"
     alias lst="ls --tree"
 fi
+
+# Generated for envman. Do not edit.
+[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"

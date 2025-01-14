@@ -1,11 +1,16 @@
 [user]
 name = "Sam Bond-Taylor"
-email = "18750296+samb-t@users.noreply.github.com"
+email = "sbondtaylor@microsoft.com"
 
 [ui]
 # paginate = "never"
 default-command = "log"
 pager = "delta"
+color = "always"
 
 [diff]
 format = "git"
+
+[git]
+subprocess=true
+auto-local-bookmark = true

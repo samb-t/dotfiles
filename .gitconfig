@@ -8,15 +8,10 @@
 	smudge = git-lfs smudge -- %f
 [credential "https://github.com"]
 	helper =
-	helper = !/home/sbondtaylor/miniconda3/bin/gh auth git-credential
+	helper = !gh auth git-credential
 [credential "https://gist.github.com"]
 	helper =
-	helper = !/home/sbondtaylor/miniconda3/bin/gh auth git-credential
-
-[includeIf "gitdir:~/repos/fmps"]
-    path = ~/gitconfigs/fmps.gitconfig
-[credential]
-	helper = store
+	helper = !gh auth git-credential
 
 [delta]
 	features = TwoDark

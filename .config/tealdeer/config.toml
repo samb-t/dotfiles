@@ -1,0 +1,25 @@
+[updates]
+auto_update = true
+
+[display]
+compact = false
+use_pager = true
+
+[style.description]
+foreground = { rgb = { r = 171, g = 178, b = 191 } }  # Light grey
+
+[style.command_name]
+# foreground = { rgb = { r = 224, g = 108, b = 117 } }  # Soft red
+foreground = { rgb = { r = 198, g = 120, b = 221 } }  # Purple
+# bold = true
+
+[style.example_text]
+foreground = { rgb = { r = 152, g = 195, b = 121 } }  # Light green
+# foreground = { rgb = { r = 171, g = 178, b = 191 } }  # Light grey
+
+[style.example_code]
+foreground = { rgb = { r = 97, g = 175, b = 239 } }  # Bright blue
+
+[style.example_variable]
+# foreground = { rgb = { r = 198, g = 120, b = 221 } }  # Purple
+foreground = { rgb = { r = 171, g = 178, b = 191 } }  # Light grey

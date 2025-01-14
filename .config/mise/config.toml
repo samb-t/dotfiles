@@ -15,7 +15,9 @@ tmux = "latest"
 "cargo:usage-cli" = "latest"
 "cargo:eza" = "latest"
 fzf = "latest"
+"cargo:tealdeer" = "latest"
 
 [env]
 AZCOPY_AUTO_LOGIN_TYPE = "AZCLI"
 BAT_THEME = "TwoDark"
+PAGER = "delta"

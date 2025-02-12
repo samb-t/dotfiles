@@ -21,6 +21,7 @@ starship = "latest"
 jj = "latest"
 delta = "latest"
 "ubi:JuliaLang/juliaup" = "latest"
+gh = "latest"
 
 [env]
 AZCOPY_AUTO_LOGIN_TYPE = "AZCLI"

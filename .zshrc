@@ -5,15 +5,22 @@ antidote load ${ZDOTDIR:-$HOME}/.zsh_plugins.txt
 PATH="$HOME/.local/bin:$PATH"
 
 eval "$(uv generate-shell-completion zsh)"
+eval "$(uvx --generate-shell-completion zsh)"
+_uv_run_mod() {
+    if [[ "$words[2]" == "run" && "$words[CURRENT]" != -* ]]; then
+        _arguments '*:filename:_files'
+    else
+        _uv "$@"
+    fi
+}
+compdef _uv_run_mod uv
+
 eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
 
 # autoload -Uz compinit && compinit
 eval "$(mise activate zsh)"
 source <(jj util completion zsh)
-
-# uv aliases
-alias uvr="uv run"
 
 # jj aliases
 alias jjgp="jj git push"

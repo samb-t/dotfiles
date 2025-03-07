@@ -22,6 +22,7 @@ jj = "latest"
 delta = "latest"
 "ubi:JuliaLang/juliaup" = "latest"
 gh = "latest"
+python = "3.10"
 
 [env]
 AZCOPY_AUTO_LOGIN_TYPE = "AZCLI"
